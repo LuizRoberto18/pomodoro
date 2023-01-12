@@ -32,7 +32,7 @@ class Cronometro extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

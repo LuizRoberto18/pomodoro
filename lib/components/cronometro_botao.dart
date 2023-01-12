@@ -17,12 +17,16 @@ class CronometroBotao extends StatelessWidget {
     return ElevatedButton.icon(
       onPressed: click,
       style: ElevatedButton.styleFrom(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+        elevation: 10,
         backgroundColor: Colors.black,
         padding: const EdgeInsets.symmetric(
-          horizontal: 30,
+          horizontal: 20,
           vertical: 20,
         ),
-        textStyle: TextStyle(
+        textStyle: const TextStyle(
           fontSize: 25,
         ),
       ),
